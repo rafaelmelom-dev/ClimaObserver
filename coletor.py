@@ -10,7 +10,7 @@ if not API_KEY:
 
 UFU_LAT = -18.7235168
 UFU_LON = -47.5253142
-URL = f"https://api.openweathermap.org/data/2.5/weather?lat={UFU_LAT}&lon={UFU_LON}&appid=c1f4339a42ed25919964e42cc5afc1b2&units=metric"
+URL = f"https://api.openweathermap.org/data/2.5/weather?lat={UFU_LAT}&lon={UFU_LON}&appid={API_KEY}&units=metric"
 
 response = requests.get(URL)
 data = response.json()
