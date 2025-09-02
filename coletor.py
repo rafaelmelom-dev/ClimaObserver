@@ -28,5 +28,4 @@ if (data['cod'] == 200):
 
     print(f"Data saved to: {caminho_completo}")
 else:
-    print("Failed")
-    print(data)
+    raise ValueError(f"Failed to fetch weather data: {data['message']}")
