@@ -27,3 +27,6 @@ if (data['cod'] == 200):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     print(f"Data saved to: {caminho_completo}")
+else:
+    print("Failed")
+    print(data)
