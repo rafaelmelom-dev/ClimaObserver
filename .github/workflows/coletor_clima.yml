@@ -26,7 +26,7 @@ jobs:
       - name: Run data collection script
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-        run: python coletor.py # Make sure the filename matches yours
+        run: python coletor.py
 
       - name: Commit and push new data
         run: |
@@ -35,7 +35,7 @@ jobs:
           git add data_lake/ # Add the entire data_lake directory
           # Check if there are changes to commit
           if ! git diff --staged --quiet; then
-            git commit -m "📊 Automated data collection"
+            git commit -m "COLETA AUTOMÁTICA"
             git push
           else
             echo "No new data to commit."
