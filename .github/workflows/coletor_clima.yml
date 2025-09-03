@@ -51,7 +51,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git remote set-url --push origin https://rafaelmelom.dev:$GITHUB_TOKEN@github.com/ClimaObserver
+          git remote set-url --push origin https://rafaelmelom-dev:$GITHUB_TOKEN@github.com/rafaelmelom-dev/ClimaObserver
           git add data_lake/
           if ! git diff --staged --quiet; then
             git commit -m "COLETA AUTOMÁTICA"
