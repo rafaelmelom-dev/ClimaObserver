@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -47.5253,
+        "lat": -18.7235
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 27.07,
+        "feels_like": 27.88,
+        "temp_min": 27.07,
+        "temp_max": 27.07,
+        "pressure": 1012,
+        "humidity": 56,
+        "sea_level": 1012,
+        "grnd_level": 912
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.01,
+        "deg": 60,
+        "gust": 1.82
+    },
+    "clouds": {
+        "all": 18
+    },
+    "dt": 1764944274,
+    "sys": {
+        "country": "BR",
+        "sunrise": 1764923101,
+        "sunset": 1764970617
+    },
+    "timezone": -10800,
+    "id": 3456848,
+    "name": "Monte Carmelo",
+    "cod": 200
+}
