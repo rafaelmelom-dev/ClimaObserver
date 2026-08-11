@@ -32,8 +32,8 @@ ClimaObserver/
 
 Eu escrevi um artigo detalhando o processo de desenvolvimento e os desafios técnicos que enfrentei ao configurar a pipeline de automação deste repositório.
 
-Você pode conferir o artigo completo aqui: **[ClimaObserver: Uma aplicac¸ ˜ao pr´atica dos conceitos de Data
-Lake para ingest˜ao de dados meteorol´ogicos](cole-o-link-aqui)**
+Você pode conferir o artigo completo aqui: **[ClimaObserver: Uma aplicação prática dos conceitos de Data
+Lake para ingestão de dados meteorológicos]([cole-o-link-aqui](https://github.com/rafaelmelom-dev/ClimaObserver/blob/main/DataLake___BD_II.pdf))**
 
 # Tecnologias
 - Linguagem: Python 3.x
