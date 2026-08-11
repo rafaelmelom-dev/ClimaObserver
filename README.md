@@ -18,10 +18,15 @@ ClimaObserver/
 │       └── weather/
 │           └── ufu/        # Dados brutos da UFU
 └── coletor.py              # Script de coleta
-Tecnologias
+```
+
+# Tecnologias
+
 - Python 3.x
+
 - GitHub Actions
-Instalação e Execução
+
+# Instalação e Execução
 1. Clone o repositório:
 git clone https://github.com/rafaelmelom-dev/ClimaObserver.git
 cd ClimaObserver
