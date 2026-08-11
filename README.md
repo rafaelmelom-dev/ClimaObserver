@@ -28,6 +28,13 @@ ClimaObserver/
 └── coletor.py              # Serviço de ingestão de dados
 ```
 
+## Leia mais sobre este projeto
+
+Eu escrevi um artigo detalhando o processo de desenvolvimento e os desafios técnicos que enfrentei ao configurar a pipeline de automação deste repositório.
+
+Você pode conferir o artigo completo aqui: **[ClimaObserver: Uma aplicac¸ ˜ao pr´atica dos conceitos de Data
+Lake para ingest˜ao de dados meteorol´ogicos](cole-o-link-aqui)**
+
 # Tecnologias
 - Linguagem: Python 3.x
 - CI/CD: GitHub Actions
